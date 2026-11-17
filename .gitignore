@@ -1,0 +1,28 @@
+# 1. 你指定要忽略的文件夹
+history/
+resource/
+
+# 2. 忽略所有 exe 文件
+*.exe
+
+# 3. Python 缓存文件（绝对不要传）
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 4. 敏感信息（千万别把账号密码传上去）
+.env
+config.py
+
+# 5. 爬取下来的媒体数据（防止仓库过大）
+*.mp4
+*.mp3
+*.m3u8
+*.log
+
+# 6. 编辑器/系统文件
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
